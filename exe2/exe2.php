@@ -41,7 +41,6 @@
     }
     
     ?>
-    <b
     <br>
     <a href="ex2.html"><button><span> Voltar </span></button></a> 
 
