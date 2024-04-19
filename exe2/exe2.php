@@ -21,18 +21,18 @@
     $idade = $data - $ano;
     if ($ano && $nome == true) {
         if ($idade >= 1 && $idade <= 11) {
-            echo "Olá $nome, voce tem $idade logo voce é criança...<br/>"; }
+            echo "Olá $nome, voce tem $idade logo voce é criança...	&#8986;<br/>"; }
         elseif ($idade >= 12 && $idade <= 14) {
-            echo "Olá $nome, voce tem $idade logo voce é adolecente...<br/>";
+            echo "Olá $nome, voce tem $idade logo voce é adolecente...	&#8986;<br/>";
         }
         elseif ($idade >= 15 && $idade <= 18) {
-            echo "Olá $nome, voce tem $idade logo voce é jovem...<br/>";
+            echo "Olá $nome, voce tem $idade logo voce é jovem...	&#8986;<br/>";
         }
         elseif ($idade >= 19 && $idade <= 64) {
-            echo "Olá $nome, voce tem $idade logo voce adulto...<br/>";
+            echo "Olá $nome, voce tem $idade logo voce adulto...	&#8986;<br/>";
         }
         else {
-            echo "Olá $nome, voce tem $idade logo voce é idoso...<br/>";
+            echo "Olá $nome, voce tem $idade logo voce é idoso...	&#8986;<br/>";
         }
         
     }
@@ -41,6 +41,8 @@
     }
     
     ?>
+    <b
+    <br>
     <a href="ex2.html"><button><span> Voltar </span></button></a> 
 
 </div>

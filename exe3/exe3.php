@@ -7,8 +7,9 @@
     <title>Resultado das medias</title>
     <style>
         h2 { 
-            color: red;
-            font: 16px arial;
+            color: black;
+            font: 20px arial black;
+            text-align: center;
         }
     </style>
 </head>
@@ -19,28 +20,29 @@
     $n1 = $_GET ["n1"];
     $n2 = $_GET ["n2"];
     $n3 = $_GET ["n3"];
-    $media = ($n1 + $n2 + $n3 )/2;
+    $media = ($n1 + $n2 + $n3 )/3;
     if ($n1 && $n2 && $n3 == true) {
         if ($media >= 7) {
-        echo "Aprovado!";
-        echo "<br/>Nota do aluno: $media."; }
+        echo "<h2>Aprovado!";
+        echo "<br/><h2>Nota do aluno: $media. &#128213; &#9999; <br/>"; }
         elseif ($media >= 5 && $media <= 6) {
-        echo "Recuperação!";
-        echo "<br/Nota do aluno: $media."; }
+        echo "<h2>Recuperação!";
+        echo "<br/<h2>Nota do aluno: $media.  &#128213; &#9999; <br/>"; }
         elseif ($media <= 4) {
-        echo "Reprovado!";
-        echo "<br/>Nota do aluno: $media."; }
+        echo "<h2>Reprovado!";
+        echo "<br/><h2>Nota do aluno: $media. &#128213; &#9999; <br/>"; }
         else {
-        echo "Reprovado!";
-        echo "<br/>Nota do aluno: $media.";
+        echo "<h2>Reprovado!";
+        echo "<br/><h2>Nota do aluno: $media. &#128213; &#9999; <br/>";
     }
         
     }
     else {
-        echo "Voce não digitou as informações corretamente...";
+        echo "<br>Voce não digitou as informações corretamente... <br/>";
     }
-    
+
     ?>
+    <br>
     <a href="ex3.html"><button><span> Voltar </span></button></a> 
 
 </div>

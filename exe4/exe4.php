@@ -7,8 +7,8 @@
     <title>Resultado das medias</title>
     <style>
         h2 { 
-            color: red;
-            font: 16px arial;
+            color: black;
+            font: 16px arial black;
         }
     </style>
 </head>
@@ -26,12 +26,12 @@
 
     switch ($o) {
         case 'fem':
-            echo "Olá, $nome voce tem $idadec anos.";
+            echo "<h2>Olá, $nome voce tem $idadec anos. Sua profissão é $p &#128221;<h2/>";
 
             break;
         
         case 'mas':
-            echo "Olá,$nome, voce tem $idade anos.";
+            echo "<h2>Olá,$nome, voce tem $idade anos. Sua profissão é $p &#128221;<h2/>";
             break;
 
     default:
