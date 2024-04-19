@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição</title>
+    <style>
+        h2 { 
+            color: rgb(35, 116, 119);
+            font: 25px arial black;
+        }
+        span {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <form action="exe4.php" method="get">
+        <h2>--------------------------------------------------</h2>
+        <h2>Formulario de cadrastro:</h2>
+        <form action="exe4.php" method="get">
+            <label
+            for="nome"> Digite o nome nome completo:</label>
+            <input type="text" name="nome" placeholder="nome completo" id= "nome" required/>
+            <br>
+            <br>
+            <label
+            for="data"> Digite a sua data de nacismento:</label>
+            <input type="date" name="data" placeholder="Digite:" id= "data" required/>
+            <br>
+            <br>
+            <label
+            for="p"> Digite a sua profissão:</label>
+            <input type="text" name="p" placeholder="Digite" id= "p" required/>
+            <br>
+            <br>
+            <label
+            for="e"> Digite o seu email:</label>
+            <input type="text" name="e" placeholder="Digite" id= "e" required/>
+            <br>
+            <br>
+            <label
+            for="status"> Digite o seu status civil:</label>
+            <input type="text" name="status" placeholder="Digite" id= "status" required/>
+            <br>
+            <br>
+            <fieldset> 
+                <input type="radio" name="oper" id="fem"
+                value = "fem"/>
+                <label for="fem" >Feminino </label> 
+                <input type="radio" name="oper" id="mas"
+                value = "mas"/>
+                <label for="mas" >Masculino </label> 
+            </fieldset>
+            <br>
+            <br>
+            <input type="submit" value="Enviar"/>
+        
+        </form>
+        <h2>--------------------------------------------------</h2>
+
+    </form>
+</div>
+</body>
+</html>

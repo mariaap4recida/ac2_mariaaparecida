@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcul. idade</title>
+    <style>
+        h2 { 
+            color: rgb(35, 116, 119);
+            font: 25px arial black;
+        }
+        span {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <form action="exe2.php" method="get">
+        <h2>Calclule a sua idade.com</h2>
+        <label for="nome" >Qual é o seu nome?</label> 
+        <input type="text" name= "nome" placeholder="nome completo" id= "nome"/> 
+        <br>
+        <br>
+        <label for="ano" >Qual é o sua data de nascimento?</label> 
+        <input type="number" name= "ano" placeholder="ano de nascimento" id= "ano" required/> 
+        <br>
+        <br>
+        <input type="submit" value="Calcular"/>
+
+    </form>
+</div>
+</body>
+</html>
