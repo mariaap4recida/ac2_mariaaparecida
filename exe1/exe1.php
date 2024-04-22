@@ -7,8 +7,12 @@
     <title>Conversor Real e Dolar</title>
     <style>
         h2 { 
-            color: red;
-            font: 16px arial;
+            color: black;
+            font: 20px arial black;
+            text-align: center;
+        }
+        span {
+            text-align: center;
         }
     </style>
 </head>
@@ -18,7 +22,7 @@
     $r = $_GET ["real"];
     $us = $r/5.17;
     if ($r == true) {
-        echo "Voce tem $r, <br/>A conversão foi de: R$". number_format($us,2,",",".") ."&#128181;";
+        echo "<h2>Voce tem $r, <br/>A conversão foi de: R$". number_format($us,2,",",".") ."&#128181;";
         echo "<h2>No dia " . date('d-m-Y H:m:s') . "</h2>";
     }
     else {
@@ -27,7 +31,7 @@
     
     ?>
 
-    <a href="ex1.html"><button><span> Voltar </span></button></a> 
+    <a href="ex1.html"><button><span>Voltar</span></button></a> 
 </div>
 </body>
 </html>
