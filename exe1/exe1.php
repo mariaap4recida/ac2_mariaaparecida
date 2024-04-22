@@ -16,7 +16,7 @@
 <div>
     <?php 
     $r = $_GET ["real"];
-    $us = $r/5.20;
+    $us = $r/5.17;
     if ($r == true) {
         echo "Voce tem $r, <br/>A conversão foi de: R$". number_format($us,2,",",".") ."&#128181;";
         echo "<h2>No dia " . date('d-m-Y H:m:s') . "</h2>";
