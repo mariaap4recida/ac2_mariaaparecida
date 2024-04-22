@@ -20,15 +20,15 @@
     $data = "2024";
     $idade = $data - $ano;
     if ($ano && $nome == true) {
-        if ($idade >= 1 && $idade <= 11) {
+        if ($idade > 1 && $idade < 11) {
             echo "Olá $nome, voce tem $idade logo voce é criança...	&#8986;<br/>"; }
-        elseif ($idade >= 12 && $idade <= 14) {
+        elseif ($idade > 12 && $idade < 14) {
             echo "Olá $nome, voce tem $idade logo voce é adolecente...	&#8986;<br/>";
         }
-        elseif ($idade >= 15 && $idade <= 18) {
+        elseif ($idade > 15 && $idade < 18) {
             echo "Olá $nome, voce tem $idade logo voce é jovem...	&#8986;<br/>";
         }
-        elseif ($idade >= 19 && $idade <= 64) {
+        elseif ($idade > 19 && $idade < 64) {
             echo "Olá $nome, voce tem $idade logo voce adulto...	&#8986;<br/>";
         }
         else {

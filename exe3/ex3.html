@@ -9,6 +9,7 @@
         h2 { 
             color: rgb(27, 13, 151);
             font: 25px arial black;
+            text-align: center;
         }
         span {
             color: red;
@@ -19,7 +20,7 @@
 <div>
     <form action="exe3.php" method="get">
         <h2>--------------------------------------------------</h2>
-        <h2>Media do aluno: &#127891;</h2>
+        <h2>Media do aluno &#127891;</h2>
         <form action="exe3.php" method="get">
             <label
             for="nome do aluno"> Digite o nome do aluno:</label>
@@ -28,17 +29,17 @@
             <br>
             <label
             for="n1"> Digite a primeira nota do aluno:</label>
-            <input type="number" name="n1" placeholder="nota" id= "n1" required/>
+            <input type="number" name="n1" placeholder="nota" id= "n1" step="0.01" required/>
             <br>
             <br>
             <label
             for="n2"> Digite a segunda nota do aluno:</label>
-            <input type="number" name="n2" placeholder="nota" id= "n2" required/>
+            <input type="number" name="n2" placeholder="nota" id= "n2" step="0.01" required/>
             <br>
             <br>
             <label
             for="n3"> Digite a terceira nota do aluno:</label>
-            <input type="number" name="n3" placeholder="nota" id= "n3" required/>
+            <input type="number" name="n3" placeholder="nota" id= "n3" step="0.01" required/>
             </label>
             <br>
             <br>
