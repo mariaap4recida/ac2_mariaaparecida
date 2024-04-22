@@ -24,16 +24,16 @@
     if ($n1 && $n2 && $n3 == true) {
         if ($media >= 7) {
         echo "<h2>Aprovado!";
-        echo "<br/><h2>Nota do aluno: $media. &#128213; &#9999; <br/>"; }
+        echo "<br/><h2>Nota do aluno:"  . number_format($media,2,","). "&#128213; &#9999; <br/>"; }
         elseif ($media >= 5 && $media <= 6) {
         echo "<h2>Recuperação!";
-        echo "<br/<h2>Nota do aluno:" . number_format($media,2) . "&#128213; &#9999; <br/>"; }
+        echo "<br/<h2>Nota do aluno:" . number_format($media,2,",") . "&#128213; &#9999; <br/>"; }
         elseif ($media <= 4) {
         echo "<h2>Reprovado!";
-        echo "<br/><h2>Nota do aluno:" . number_format($media,2) . "&#128213; &#9999; <br/>"; }
+        echo "<br/><h2>Nota do aluno:" . number_format($media,2,",") . "&#128213; &#9999; <br/>"; }
         else {
         echo "<h2>Reprovado!";
-        echo "<br/><h2>Nota do aluno:" . number_format($media,2,) . "&#128213; &#9999; <br/>";
+        echo "<br/><h2>Nota do aluno:" . number_format($media,2,",") . "&#128213; &#9999; <br/>";
     }
         
     }
