@@ -21,11 +21,11 @@
     <form action="exe2.php" method="get">
         <h2>Calclule a sua idade.com &#8986;</h2>
         <label for="nome" >Qual é o seu nome?</label> 
-        <input type="text" name= "nome" placeholder="nome completo" id= "nome"/> 
+        <input type="text" name= "nome" placeholder="nome completo" id= "nome" required/> 
         <br>
         <br>
         <label for="ano" >Qual é seu ano de nascimento?</label> 
-        <input type="number" name= "ano" placeholder="ano de nascimento" id= "ano" required/> 
+        <input type="number" name= "ano" placeholder="ano de nascimento" id= "ano" min="0000" max="9999" required/> 
         <br>
         <br>
         <input type="submit" value="Calcular"/>
